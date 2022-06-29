@@ -1,19 +1,29 @@
-import type { Component } from 'solid-js';
-import { JSX } from 'solid-js';
-import { text, setText } from './text';
+import type { Component } from "solid-js";
+import { JSX } from "solid-js";
+import { text, setText } from "./text";
+import { Header, RichButton, CommunicationWindow } from "./components";
 
 export const App: Component = () => {
-  const onChangeHandler: JSX.EventHandlerUnion<
-    HTMLInputElement,
-    Event
-  > = event => {
-    setText((event.target as HTMLInputElement).value);
-  };
-
   return (
     <>
-      <input type="text" onInput={onChangeHandler} />
-      <p>Current input: {text()}</p>
+      <Header />
+      <div
+        style={{
+          position: "fixed",
+          bottom: 0,
+          width: "100%",
+        }}
+      >
+        <CommunicationWindow
+          title='aa'
+          children={
+            <>
+              <p>こんにちは。</p>
+              <p>いらっしゃい。</p>
+            </>
+          }
+        />
+      </div>
     </>
   );
 };

@@ -18,6 +18,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-position-x: 100%;
+  background-image: url('/src/assets/bar-backimage.jpg');
 }
 
 code {
