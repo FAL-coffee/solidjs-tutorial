@@ -1,10 +1,8 @@
 import type { Component } from 'solid-js';
-import { createSignal } from 'solid-js';
 import { JSX } from 'solid-js';
+import { text, setText } from './text';
 
 export const App: Component = () => {
-  const [text, setText] = createSignal('default');
-
   const onChangeHandler: JSX.EventHandlerUnion<
     HTMLInputElement,
     Event
