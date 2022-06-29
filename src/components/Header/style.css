@@ -1,0 +1,49 @@
+header {
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-family: "Hannari";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+}
+
+.logo{
+    float: left;
+    margin-left: 2vw;
+    height: 8vh;
+}
+
+@media (min-width:768px) {
+  header{
+    height: 11vh;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .logo{
+      margin-left: 1vw;
+      height: 10vh;
+  }
+}
+
+@media (min-width:1024px) {
+  header{
+    height: 15vh;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  .logo{
+      margin-left: 2vw;
+      height: 15vh;
+  }
+}
