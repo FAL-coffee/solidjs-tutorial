@@ -1,13 +1,13 @@
-import { render } from "solid-js/web";
+import { render } from 'solid-js/web';
 
-import { Header, Props } from ".";
+import { Header, Props } from '.';
 
-describe("<Header />", () => {
-  const div = document.createElement("div");
+describe('<Header />', () => {
+  const div = document.createElement('div');
   const props: Props = {};
   render(() => <Header {...props} />, div);
 
-  it("render", () => {
+  it('render', () => {
     expect(div).toBeTruthy();
   });
 });
