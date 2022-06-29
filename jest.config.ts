@@ -32,7 +32,7 @@ export default {
 
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/jest/babelTransform.js",
-    // "^.+\\.css$": "/jest/cssTransform.js",
+    "^.+\\.css$": "<rootDir>/jest/cssTransform.js",
     // "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/jest/fileTransform.js",
   },
 
