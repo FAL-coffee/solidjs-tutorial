@@ -1,0 +1,66 @@
+.flame25 {
+  position: relative;
+  padding: 0.3em;
+  color: rgb(229, 226, 226);
+  text-shadow:0.2px 0.2px 0 #FFF, -0.2px -0.2px 0 #FFF,
+              -0.2px 0.2px 0 #FFF, 0.2px -0.2px 0 #FFF,
+              0px 0.2px 0 #FFF,  0-0.2px 0 #FFF,
+              -0.2px 0 0 #FFF, 0.2px 0 0 #FFF;
+  font-size: 1.5em;
+
+  background-color: #000;
+  background-image: radial-gradient(circle at 100% 100%, transparent 15px, #4a4b04 15px, #6b6d10 20px, transparent 20px), linear-gradient(to right, #636415, #efffcc), radial-gradient(circle at 0% 100%, transparent 15px, #efffcc 15px, #efffcc 20px, transparent 20px), linear-gradient(to bottom, #efffcc, #f3ffe0), radial-gradient(circle at 0% 0%, transparent 15px, #f3ffe0 15px, #f3ffe0 20px, transparent 20px), linear-gradient(to left, #f3ffe0, #7e702b), radial-gradient(circle at 100% 0%, transparent 15px, #ffd600 15px, #ffd600 20px, transparent 20px), linear-gradient(to top, #5c511c, #797a18);
+background-size: 20px 20px, calc(100% - 40px) 5px, 20px 20px, 5px calc(100% - 40px);
+background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+background-repeat: no-repeat
+}
+.flame25 p {
+  padding: 3px 6px;
+  margin: 0;
+}
+
+@media (min-width:768px) {
+    .flame25 {
+        position: relative;
+        padding: 0.5em;
+        color: rgb(229, 226, 226);
+        text-shadow:0.5px 0.5px 0 #FFF, -0.5px -0.5px 0 #FFF,
+                    -0.5px 0.5px 0 #FFF, 0.5px -0.5px 0 #FFF,
+                    0px 0.5px 0 #FFF,  0-0.5px 0 #FFF,
+                    -0.5px 0 0 #FFF, 0.5px 0 0 #FFF;
+        font-size: 3em;
+      
+        background-color: #000;
+        background-image: radial-gradient(circle at 100% 100%, transparent 15px, #4a4b04 15px, #6b6d10 20px, transparent 20px), linear-gradient(to right, #636415, #efffcc), radial-gradient(circle at 0% 100%, transparent 15px, #efffcc 15px, #efffcc 20px, transparent 20px), linear-gradient(to bottom, #efffcc, #f3ffe0), radial-gradient(circle at 0% 0%, transparent 15px, #f3ffe0 15px, #f3ffe0 20px, transparent 20px), linear-gradient(to left, #f3ffe0, #7e702b), radial-gradient(circle at 100% 0%, transparent 15px, #ffd600 15px, #ffd600 20px, transparent 20px), linear-gradient(to top, #5c511c, #797a18);
+      background-size: 20px 20px, calc(100% - 40px) 5px, 20px 20px, 5px calc(100% - 40px);
+      background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+      background-repeat: no-repeat
+      }
+    .flame25 p {
+        padding: 5px 10px;
+        margin: 0;
+      }
+  }
+  
+  @media (min-width:1024px) {
+    .flame25 {
+        position: relative;
+        padding: 0.5em;
+        color: rgb(229, 226, 226);
+        text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+                    -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+                    0px 1px 0 #FFF,  0-1px 0 #FFF,
+                    -1px 0 0 #FFF, 1px 0 0 #FFF;
+        font-size: 4em;
+      
+        background-color: #000;
+        background-image: radial-gradient(circle at 100% 100%, transparent 15px, #4a4b04 15px, #6b6d10 20px, transparent 20px), linear-gradient(to right, #636415, #efffcc), radial-gradient(circle at 0% 100%, transparent 15px, #efffcc 15px, #efffcc 20px, transparent 20px), linear-gradient(to bottom, #efffcc, #f3ffe0), radial-gradient(circle at 0% 0%, transparent 15px, #f3ffe0 15px, #f3ffe0 20px, transparent 20px), linear-gradient(to left, #f3ffe0, #7e702b), radial-gradient(circle at 100% 0%, transparent 15px, #ffd600 15px, #ffd600 20px, transparent 20px), linear-gradient(to top, #5c511c, #797a18);
+      background-size: 20px 20px, calc(100% - 40px) 5px, 20px 20px, 5px calc(100% - 40px);
+      background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+      background-repeat: no-repeat
+      }
+    .flame25 p {
+        padding: 10px 15px;
+        margin: 0;
+      }
+  }
