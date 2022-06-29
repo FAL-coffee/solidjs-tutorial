@@ -1,2 +1,2 @@
-export * from "./Header";
-export type { Props } from "./types";
+export * from './Header';
+export type { Props } from './types';
